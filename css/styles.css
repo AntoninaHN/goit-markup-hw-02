@@ -42,7 +42,7 @@ header {
   text-decoration: none;
 }
 .studio {
-  /* Студия */
+  /*  */
 
   position: absolute;
   width: 49px;
@@ -69,7 +69,7 @@ header {
   color: #000000;
 }
 .portfolio {
-  /* Портфолио */
+  /*  */
 
   position: absolute;
   width: 77px;
@@ -88,7 +88,7 @@ header {
   text-decoration: none;
 }
 .contacts {
-  /* Контакты */
+  /* ÐšÐ¾Ð½Ñ‚Ð°ÐºÑ‚Ñ‹ */
 
   position: absolute;
   width: 68px;
@@ -163,8 +163,6 @@ header {
   background: #2f303a;
 }
 .hero-title {
-  /* Эффективные решения для вашего бизнеса */
-
   position: absolute;
   width: 696px;
   height: 120px;
@@ -225,8 +223,6 @@ header {
 } */
 
 .details {
-  /* Внимание к деталям */
-
   position: absolute;
   width: 270px;
   height: 16px;
@@ -244,8 +240,6 @@ header {
   color: var(--primary-text-color);
 }
 .details-text {
-  /* Идейные соображения, а также начало повседневной работы по формированию позиции. */
-
   position: absolute;
   width: 270px;
   height: 75px;
@@ -263,8 +257,6 @@ header {
   color: #757575;
 }
 .punctuality {
-  /* Пунктуальность */
-
   position: absolute;
   width: 270px;
   height: 16px;
@@ -282,8 +274,6 @@ header {
   color: var(--primary-text-color);
 }
 .punctuality-text {
-  /* Задача организации, в особенности же рамки и место обучения кадров влечет за собой. */
-
   position: absolute;
   width: 270px;
   height: 75px;
@@ -302,7 +292,7 @@ header {
 }
 
 .planning {
-  /* Планирование */
+  /* ÐŸÐ»Ð°Ð½Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ */
 
   position: absolute;
   width: 270px;
@@ -321,8 +311,6 @@ header {
   color: var(--primary-text-color);
 }
 .planning-text {
-  /* Равным образом консультация с широким активом в значительной степени обуславливает. */
-
   position: absolute;
   width: 270px;
   height: 75px;
@@ -340,8 +328,6 @@ header {
   color: #757575;
 }
 .technologies {
-  /* Современные технологии */
-
   position: absolute;
   width: 270px;
   height: 16px;
@@ -358,9 +344,8 @@ header {
 
   color: var(--primary-text-color);
 }
-.technologies-text {
-  /* Значимость этих проблем настолько очевидна, что реализация плановых заданий. */
 
+.technologies-text {
   position: absolute;
   width: 270px;
   height: 75px;
@@ -378,7 +363,7 @@ header {
   color: #757575;
 }
 .what-we-do {
-  /* Чем мы занимаемся */
+  /* Ð§ÐµÐ¼ Ð¼Ñ‹ Ð·Ð°Ð½Ð¸Ð¼Ð°ÐµÐ¼ÑÑ */
 
   position: absolute;
   width: 376px;
@@ -443,8 +428,6 @@ header {
   background: #f5f4fa;
 }
 .heading-team {
-  /* Наша команда */
-
   position: absolute;
   width: 264px;
   height: 42px;
@@ -472,7 +455,6 @@ header {
 
   background: #f5f4fa;
 }
-
 .img-igor {
   /* card bg */
 
@@ -488,55 +470,7 @@ header {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.img-olga {
-  /* card bg */
-
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 515px;
-  top: 1635px;
-
-  background: #ffffff;
-  /* material shadow v1 */
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.img-taras {
-  /* card bg */
-
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 815px;
-  top: 1635px;
-
-  background: #ffffff;
-  /* material shadow v1 */
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.img-michael {
-  /* card bg */
-
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 1115px;
-  top: 1635px;
-
-  background: #ffffff;
-  /* material shadow v1 */
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
 .igor-d {
-  /* Игорь Демьяненко */
-
   position: absolute;
   width: 151px;
   height: 19px;
@@ -574,9 +508,54 @@ header {
 
   color: #757575;
 }
-.olga-r {
-  /* Ольга Репина */
+.img-olga {
+  /* card bg */
 
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 1635px;
+
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.img-tarasov {
+  /* card bg */
+
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 815px;
+  top: 1635px;
+
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.img-michael {
+  /* card bg */
+
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+  top: 1635px;
+
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.olga-r {
   position: absolute;
   width: 109px;
   height: 19px;
@@ -615,8 +594,6 @@ header {
   color: #757575;
 }
 .tarasov {
-  /* Николай Тарасов */
-
   position: absolute;
   width: 150px;
   height: 19px;
@@ -655,8 +632,6 @@ header {
   color: #757575;
 }
 .michael-e {
-  /* Михаил Ермаков */
-
   position: absolute;
   width: 150px;
   height: 19px;
@@ -693,4 +668,91 @@ header {
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  /* WebStudio */
+
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  color: #ffffff;
+}
+.logo-footer span {
+  /* WebStudio */
+
+  color: #2196f3;
+  text-decoration: none;
+}
+.address {
+  /* г. Киев, пр-т Леси Украинки, 26 */
+
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2208px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.email-foot {
+  /* info@example.com */
+
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2238px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.number {
+  /* +38 099 111 11 11 */
+
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2268px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
