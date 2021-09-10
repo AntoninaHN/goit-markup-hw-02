@@ -82,6 +82,10 @@ ul {
   color: var(--title-text-color);
   text-decoration: none;
 }
+.portfolio:hover,
+.portfolio:focus {
+  color: var(--accent-color);
+}
 .contacts {
   font-family: Roboto;
 
@@ -126,9 +130,6 @@ ul {
 .telephone-number:focus {
   color: var(--accent-color);
 }
-/* .hero {
-
-} */
 /* Button */
 .hero {
   font-family: Roboto;
@@ -144,11 +145,6 @@ ul {
 
   text-decoration: none;
 }
-
-/* .button:hover,
-.button:focus {
-  color: var(--accent-color);
-} */
 
 .details {
   font-family: Roboto;
@@ -321,7 +317,7 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .img-olga {
   /* card bg */
@@ -501,6 +497,7 @@ footer {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
+
 .web-site {
   /* Rectangle 10 */
   background: var(--button-color);
@@ -676,6 +673,48 @@ footer {
 }
 .design-limited {
   /* Дизайн */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+.lab {
+  /* Проект LAB */
+
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+.lab-marketing {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+.business {
+  /* Growing Business */
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+.app-business {
+  /* Приложение */
   font-family: Roboto;
   font-size: 16px;
   line-height: 30px;
