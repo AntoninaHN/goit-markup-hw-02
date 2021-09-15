@@ -64,12 +64,16 @@ ul {
 
   text-decoration: none;
 }
-.site-nav .studio.current {
+.studio {
   color: var(--accent-color);
 }
 .studio:hover,
 .studio:focus {
   color: #000000;
+}
+.studio-current {
+  color: var(--title-text-color);
+  text-decoration: none;
 }
 .portfolio {
   font-family: Roboto;
@@ -85,6 +89,10 @@ ul {
 .portfolio:hover,
 .portfolio:focus {
   color: var(--accent-color);
+}
+.portfolio-current {
+  color: var(--accent-color);
+  text-decoration: none;
 }
 .contacts {
   font-family: Roboto;
