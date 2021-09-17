@@ -15,14 +15,6 @@ ul {
 .header {
   /* top line bg */
 
-  font-family: Roboto;
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  /* or 136% */
-  text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
 
   color: var(--background-color);
@@ -32,14 +24,12 @@ ul {
 }
 .logo {
   /* WebStudio */
-  line-height: 31px;
+  line-height: 1.1;
 
   font-family: Raleway;
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
   letter-spacing: 0.03em;
 
   color: #000000;
@@ -49,7 +39,8 @@ ul {
 .logo span {
   color: var(--accent-color);
   text-decoration: none;
-  line-height: 31px;
+  line-height: 1.1;
+  font-weight: 700;
 }
 
 .studio {
@@ -57,7 +48,7 @@ ul {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 
   color: var(--accent-color);
@@ -72,15 +63,28 @@ ul {
   color: #000000;
 }
 .studio-current {
-  color: var(--title-text-color);
   text-decoration: none;
+  /* Студия */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.studio-current:hover,
+.studio-current:focus {
+  color: var(--accent-color);
 }
 .portfolio {
   font-family: Roboto;
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 
   color: var(--title-text-color);
@@ -91,15 +95,23 @@ ul {
   color: var(--accent-color);
 }
 .portfolio-current {
+  /* Портфолио */
   color: var(--accent-color);
   text-decoration: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 .contacts {
   font-family: Roboto;
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
 
@@ -113,10 +125,10 @@ ul {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--accent-color);
+  color: var(--primary-text-color);
 }
 .email:hover,
 .email:focus {
@@ -129,7 +141,7 @@ ul {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
@@ -138,12 +150,15 @@ ul {
 .telephone-number:focus {
   color: var(--accent-color);
 }
-/* Button */
+
 .hero {
+  /* Bg */
   font-family: Roboto;
   background: var(--background-color);
   background: #2f303a;
+  font-weight: 900;
 }
+
 .button {
   /* bg */
 
@@ -152,6 +167,16 @@ ul {
   border-radius: 4px;
 
   text-decoration: none;
+  /* Заказать услугу */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+
+  color: var(--background-color);
 }
 
 .details {
@@ -159,18 +184,18 @@ ul {
 
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--title-text-color);
+  color: #212121;
 }
 .details-text {
   font-family: Roboto;
 
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
 
@@ -181,18 +206,18 @@ ul {
 
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--title-text-color);
+  color: #212121;
 }
 .punctuality-text {
   font-family: Roboto;
 
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
 
@@ -204,18 +229,18 @@ ul {
 
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--title-text-color);
+  color: #212121;
 }
 .planning-text {
   font-family: Roboto;
 
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
 
@@ -226,19 +251,19 @@ ul {
 
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--title-text-color);
+  color: #212121;
 }
 
 .technologies-text {
   font-family: Roboto;
 
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+  line-height: 1.7;
+ 
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
@@ -248,7 +273,7 @@ ul {
 
   font-weight: bold;
   font-size: 30px;
-  line-height: 42px;
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -281,7 +306,7 @@ ul {
 
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -307,7 +332,7 @@ ul {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -321,7 +346,7 @@ ul {
 
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
 
   letter-spacing: 0.03em;
 
@@ -361,7 +386,7 @@ ul {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -375,7 +400,7 @@ ul {
 
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -387,7 +412,7 @@ ul {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -401,7 +426,7 @@ ul {
 
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -413,7 +438,7 @@ ul {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -427,7 +452,7 @@ ul {
 
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -445,7 +470,7 @@ footer {
 
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
   text-decoration: none;
@@ -465,7 +490,7 @@ footer {
 
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
 
@@ -478,7 +503,7 @@ footer {
 
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
 
@@ -491,42 +516,88 @@ footer {
 
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
 }
 .all-button {
-  /* Rectangle 10 */
-  background: var(--accent-color);
-  /* shadow-middle */
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
+  /* Все */
 
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+  background-color: var(--button-color);
+}
+.all-button:hover,
+.all-button:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
 .web-site {
-  /* Rectangle 10 */
-  background: var(--button-color);
-  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
 }
 .app-button {
-  /* Rectangle 10 */
-  background: var(--button-color);
-  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+.design-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
 }
 .marketing-button {
-  /* Rectangle 10 */
-  background: var(--button-color);
-  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
 }
 .poster {
   /* container bg */
 
   background: var(--background-color);
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
 }
 .techno {
   /* Технокряк */
@@ -535,7 +606,7 @@ footer {
 
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 
@@ -545,7 +616,7 @@ footer {
   /* Веб-сайт */
   font-family: Roboto;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
 
@@ -557,7 +628,7 @@ footer {
 
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 
@@ -568,7 +639,7 @@ footer {
 
   font-family: Roboto;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
 
@@ -581,7 +652,7 @@ footer {
   font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 
@@ -594,7 +665,7 @@ footer {
   font-family: Roboto;
 
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
 
@@ -607,7 +678,7 @@ footer {
 
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height:2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 
@@ -618,7 +689,7 @@ footer {
 
   font-family: Roboto;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
 
@@ -630,7 +701,7 @@ footer {
   font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 
@@ -640,7 +711,7 @@ footer {
   /* Приложение */
   font-family: Roboto;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
 
@@ -651,7 +722,7 @@ footer {
   font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 
@@ -661,7 +732,7 @@ footer {
   /* Веб-сайт */
   font-family: Roboto;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
 
@@ -673,7 +744,7 @@ footer {
 
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 
@@ -683,7 +754,7 @@ footer {
   /* Дизайн */
   font-family: Roboto;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
 
@@ -695,7 +766,7 @@ footer {
   font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 
@@ -704,7 +775,7 @@ footer {
 .lab-marketing {
   font-family: Roboto;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
 
@@ -715,7 +786,7 @@ footer {
   font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 
@@ -725,7 +796,7 @@ footer {
   /* Приложение */
   font-family: Roboto;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
 
