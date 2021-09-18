@@ -14,9 +14,6 @@ ul {
 
 .header {
   /* top line bg */
-
-  text-transform: uppercase;
-
   color: var(--background-color);
 }
 .hero {
@@ -43,7 +40,8 @@ ul {
   font-weight: 700;
 }
 
-.studio {
+.studio,
+.studio-current {
   font-family: Roboto;
 
   font-weight: 500;
@@ -54,32 +52,22 @@ ul {
   color: var(--accent-color);
 
   text-decoration: none;
-}
-.studio {
-  color: var(--accent-color);
-}
-.studio:hover,
-.studio:focus {
-  color: #000000;
 }
 .studio-current {
-  text-decoration: none;
-  /* Студия */
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-
-  color: #212121;
+  color: var(--title-text-color);
 }
+
+.studio:hover,
+.studio:focus {
+  color: var(--accent-color);
+}
+
 .studio-current:hover,
 .studio-current:focus {
   color: var(--accent-color);
 }
-.portfolio {
+.portfolio,
+.portfolio-current {
   font-family: Roboto;
 
   font-weight: 500;
@@ -90,22 +78,18 @@ ul {
   color: var(--title-text-color);
   text-decoration: none;
 }
+.portfolio-current {
+  color: var(--accent-color);
+}
 .portfolio:hover,
 .portfolio:focus {
   color: var(--accent-color);
 }
-.portfolio-current {
-  /* Портфолио */
+.portfolio-current:hover,
+.portfolio-current:focus {
   color: var(--accent-color);
-  text-decoration: none;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
 }
+
 .contacts {
   font-family: Roboto;
 
@@ -118,8 +102,10 @@ ul {
   color: var(--title-text-color);
   list-style-type: none;
 }
-.email {
+.email,
+.telephone-number {
   /* info@devstudio.com */
+  /* +38 096 111 11 11 */
 
   font-family: Roboto;
 
@@ -133,18 +119,6 @@ ul {
 .email:hover,
 .email:focus {
   color: var(--accent-color);
-}
-.telephone-number {
-  /* +38 096 111 11 11 */
-
-  font-family: Roboto;
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--primary-text-color);
 }
 .telephone-number:hover,
 .telephone-number:focus {
@@ -263,7 +237,7 @@ ul {
 
   font-size: 14px;
   line-height: 1.7;
- 
+
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
@@ -426,7 +400,7 @@ ul {
 
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.18
+  line-height: 1.18;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -495,21 +469,11 @@ footer {
   letter-spacing: 0.03em;
 
   color: var(--background-color);
+  text-decoration: none;
+  font-style: normal;
 }
-.email-foot {
+.email-foot-number {
   /* info@example.com */
-
-  font-family: Roboto;
-
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  /* or 171% */
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
-}
-.number {
   /* +38 099 111 11 11 */
 
   font-family: Roboto;
@@ -517,11 +481,12 @@ footer {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
-  /* or 171% */
   letter-spacing: 0.03em;
-
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
+
 .all-button {
   /* Все */
 
@@ -555,6 +520,11 @@ footer {
   color: var(--title-text-color);
   background-color: #f5f4fa;
 }
+.web-site:hover,
+.web-site:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
 .app-button {
   font-family: Roboto;
   font-style: normal;
@@ -567,6 +537,11 @@ footer {
 
   color: var(--title-text-color);
   background-color: #f5f4fa;
+}
+.app-button:hover,
+.app-button:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
 }
 .design-button {
   font-family: Roboto;
@@ -581,6 +556,11 @@ footer {
   color: var(--title-text-color);
   background-color: #f5f4fa;
 }
+.design-button:hover,
+.design-button:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
 .marketing-button {
   font-family: Roboto;
   font-style: normal;
@@ -593,6 +573,11 @@ footer {
 
   color: var(--title-text-color);
   background-color: #f5f4fa;
+}
+.marketing-button:hover,
+.marketing-button:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
 }
 .poster {
   /* container bg */
@@ -678,7 +663,7 @@ footer {
 
   font-weight: bold;
   font-size: 18px;
-  line-height:2;
+  line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 
